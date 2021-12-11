@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{084CCD6D-AF8E-43A3-9DCD-5FB876F044AC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>EjerciciosVisualBasicDavidPino.My.MyApplication</StartupObject>
+    <RootNamespace>EjerciciosVisualBasicDavidPino</RootNamespace>
+    <AssemblyName>EjerciciosVisualBasicDavidPino</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>EjerciciosVisualBasicDavidPino.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>EjerciciosVisualBasicDavidPino.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormE1.Designer.vb">
+      <DependentUpon>FormE1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormE1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormE10.Designer.vb">
+      <DependentUpon>FormE10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormE10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormE11.Designer.vb">
+      <DependentUpon>FormE11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormE11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormE12.Designer.vb">
+      <DependentUpon>FormE12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormE12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormE13.Designer.vb">
+      <DependentUpon>FormE13.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormE13.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormE14.Designer.vb">
+      <DependentUpon>FormE14.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormE14.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormE15.Designer.vb">
+      <DependentUpon>FormE15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormE15.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormE2.Designer.vb">
+      <DependentUpon>FormE2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormE2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormE3.Designer.vb">
+      <DependentUpon>FormE3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormE3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormE4.Designer.vb">
+      <DependentUpon>FormE4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormE4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormE5.Designer.vb">
+      <DependentUpon>FormE5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormE5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormE6.Designer.vb">
+      <DependentUpon>FormE6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormE6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormE7.Designer.vb">
+      <DependentUpon>FormE7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormE7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormE8.Designer.vb">
+      <DependentUpon>FormE8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormE8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormE9.Designer.vb">
+      <DependentUpon>FormE9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormE9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormE1.resx">
+      <DependentUpon>FormE1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormE10.resx">
+      <DependentUpon>FormE10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormE11.resx">
+      <DependentUpon>FormE11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormE12.resx">
+      <DependentUpon>FormE12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormE13.resx">
+      <DependentUpon>FormE13.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormE14.resx">
+      <DependentUpon>FormE14.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormE15.resx">
+      <DependentUpon>FormE15.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormE2.resx">
+      <DependentUpon>FormE2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormE3.resx">
+      <DependentUpon>FormE3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormE4.resx">
+      <DependentUpon>FormE4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormE6.resx">
+      <DependentUpon>FormE6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormE7.resx">
+      <DependentUpon>FormE7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormE8.resx">
+      <DependentUpon>FormE8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormE9.resx">
+      <DependentUpon>FormE9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
